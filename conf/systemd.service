@@ -1,0 +1,17 @@
+[Unit]
+Description=Radarr Daemon
+After=network.target
+
+[Service]
+Type=simple
+User=__APP__
+Group=__APP__
+WorkingDirectory=__FINALPATH__/
+ExecStart=/usr/bin/mono --debug __FINALPATH__/Radarr.exe -nobrowser -data=__DATADIR__ >> /var/log/__APP__/__APP__.log 2>&1
+TimeoutStopSec=20
+KillMode=process
+Restart=on-failure
+UMask=002
+
+[Install]
+WantedBy=multi-user.target

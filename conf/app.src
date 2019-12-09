@@ -1,0 +1,6 @@
+SOURCE_URL=https://github.com/Radarr/Radarr/releases/download/v0.2.0.1450/Radarr.develop.0.2.0.1450.linux.tar.gz
+SOURCE_SUM=00c09e64b985c75d4cfd98b5fec52e8274c155ccb61d907dfeaf5e179dc176ea
+SOURCE_SUM_PRG=sha256sum
+SOURCE_FORMAT=tar.gz
+SOURCE_IN_SUBDIR=true
+SOURCE_FILENAME=

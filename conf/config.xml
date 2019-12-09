@@ -1,0 +1,5 @@
+<Config>
+  <LogLevel>Info</LogLevel>
+  <Port>7878</Port>
+  <UrlBase>/radarr</UrlBase>
+</Config>
